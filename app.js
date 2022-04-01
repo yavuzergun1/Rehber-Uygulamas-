@@ -23,6 +23,7 @@ if (e.target.className==='btn btn--edit'){
 
 }if(e.target.className==='btn btn--delete'){
     rehberdenSil(kaydedilenTr);
+    bilgiOlustur(false, 'Kişi Bilgileri Silindi')
 }
 }
 
