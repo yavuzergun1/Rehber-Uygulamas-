@@ -74,7 +74,7 @@ function bilgiOlustur(durum, mesaj){
     document.querySelector('.container').insertBefore(olusturulanBilgi, form);
     setTimeout(function(){
         document.querySelector('.bilgi').remove();
-    },3000)
+    },2000)
     
 }
 
