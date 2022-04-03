@@ -52,13 +52,15 @@ if(fonkSonucu.durum){
         kaydetButon.value='Kaydet';
         bilgiOlustur(true, 'Kişi Bilgileri Güncellendi');
         secilenSatir= undefined;
+        alanTemizle()
     } else {
     kisiyiEkle(eklenecekKisi);
-    bilgiOlustur(fonkSonucu.durum, fonkSonucu.mesaj); }
+    bilgiOlustur(fonkSonucu.durum, fonkSonucu.mesaj); 
+    alanTemizle();}
 } else {
     bilgiOlustur(fonkSonucu.durum, fonkSonucu.mesaj);
 }
-alanTemizle();
+
 
 }
 
